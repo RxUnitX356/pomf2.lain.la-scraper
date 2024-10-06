@@ -1,6 +1,8 @@
-# Catbox Scraper
+# !!!I AM NOT THE ORIGINAL CREATOR DOOT IS!!!
 
-An extremely fast python script for scraping and downloading random files from [Catbox](https://catbox.moe), a file-hosting site.
+# Pomf2.lain.la Scraper
+
+An extremely fast python script for scraping and downloading random files from [Catbox](https://pomf2.lain.la/), a file-hosting site.
 
 The script takes from file extensions specified under config.yaml, generates random urls and checks to see if they are valid. If they are, it downloads them and stores them in extension-sorted folders.
 
@@ -14,8 +16,8 @@ You will need:
 - Python
 - Git
 ```
-git clone https://github.com/dootss/catbox-scraper.git
-cd catbox-scraper
+git clone https://github.com/RxUnitX356/pomf2.lain.la-scraper.git
+cd pomf2.lain.la-scraper
 pip install -r requirements.txt
 python main.py
 ```
