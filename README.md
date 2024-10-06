@@ -2,7 +2,7 @@
 
 # Pomf2.lain.la Scraper
 
-An extremely fast python script for scraping and downloading random files from [Catbox](https://pomf2.lain.la/), a file-hosting site.
+An extremely fast python script for scraping and downloading random files from [Pomf2](https://pomf2.lain.la/), a file-hosting site.
 
 The script takes from file extensions specified under config.yaml, generates random urls and checks to see if they are valid. If they are, it downloads them and stores them in extension-sorted folders.
 
