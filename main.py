@@ -11,7 +11,7 @@ import threading
 
 
 CONFIG_FILE = 'config.yaml'
-URL = 'https://files.catbox.moe/'
+URL = 'https://pomf2.lain.la/'
 os.system('')
 sys.stdout.write('\033[?25l')
 
@@ -107,9 +107,10 @@ async def check_url(_):
 
 if __name__ == "__main__":
     clear_screen()
-    print(" CATBOX SCRAPER")
+    print(" POMF2.LAIN.LA SCRAPER")
     print("[==============]")
     print("    BY DOOT\n")
+    print("    MODIFIED BY RXUNITX355\n")
     print(' STARTING...')
     threading.Thread(target=status_board, daemon=True).start()
 
